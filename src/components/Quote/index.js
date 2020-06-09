@@ -9,7 +9,7 @@ export default function Quote({q: {quote, author}, next, text}) {
   return (
     <StyledQuote text={text}>
       <p id="text">{quote}</p>
-      <p id="author">{author}</p>
+      <strong id="author"> - {author}</strong>
       <div className="buttons__row">
         <div className="social__icons">
           <a

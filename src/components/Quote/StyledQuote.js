@@ -4,7 +4,7 @@ const StyledQuote = styled.main`
   padding: 1em;
   text-align: center;
   background: white;
-  max-width: 800px;
+  max-width: min(90%, 900px);
   border-radius: 10px;
   color: ${({text}) => text};
 

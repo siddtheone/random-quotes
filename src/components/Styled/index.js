@@ -12,15 +12,11 @@ export const Global = createGlobalStyle`
 `;
 
 export const Screen = styled.section`
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-y: scroll;
+  min-height: 100vh;
   transition: 0.5s;
-  background: ${({bg}) => bg}
+  background: ${({bg}) => bg};
+  padding: 1em 0;
 `;
