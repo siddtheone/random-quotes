@@ -8,7 +8,8 @@ const StyledQuote = styled.main`
   border-radius: 10px;
   color: ${({text}) => text};
 
-  .buttons__row {
+  .buttons-row {
+    margin-top: 1em;
     display: flex;
     justify-content: space-between;
   }

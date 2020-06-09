@@ -10,14 +10,14 @@ export default function Quote({q: {quote, author}, next, text}) {
     <StyledQuote text={text}>
       <p id="text">{quote}</p>
       <strong id="author"> - {author}</strong>
-      <div className="buttons__row">
+      <div className="buttons-row">
         <div className="social__icons">
           <a
             className="links"
             id="tweet-quote"
             href={tweet}
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <i className="fa fa-twitter" />
           </a>
@@ -25,7 +25,7 @@ export default function Quote({q: {quote, author}, next, text}) {
             className="links"
             href={tumblr}
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <i className="fa fa-tumblr" />
           </a>
